@@ -1,8 +1,72 @@
-    
-/* css reset - some browsers have margins so solution to reset below properties */
+
+/* css reset - some browsers have margins */
 * { 
   margin: 0;
   padding: 0; 
+}
+
+
+a {
+  color: black;
+  font-size: 14px;
+  text-decoration: none;
+  font-family:arial;
+  padding: 10px;
+}
+
+
+/* Flex Container */
+
+.flex-container  {
+  display: flex;
+  background: #31343D;
+  justify-content:space-between;
+  margin: 10px 0px 10px 0px;
+}
+
+.flex-container div {
+    padding: 5px;
+} 
+
+
+
+/* Navigation */
+.navigation  {
+  display: flex;
+  align-items: center;
+  justify-content:flex-end;
+}
+
+.main-nav {
+  background-color: #31343D;
+}
+
+.navigation a {
+  font-size: 17px;
+  color: #92CCCE;
+  font-weight: bold;
+  font-family: Arial;  
+}
+
+.navigation a:hover {
+  background: #73FBFD;
+}
+
+
+
+/* Image Related */
+
+.image {
+	height: 100px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-myphoto {
+  width: 200px;
+	height: 30px;
+  background-image: url("../images/myphoto.jpg");
 }
 
 
