@@ -62,8 +62,38 @@ a {
 }
 
 
+/* Left and Right Items that is reused */
+.left-text-item{
+  flex-basis: 17%;  
+  background-color: #EEEEF7;
+  background-repeat: no-repeat; 
+  margin: 20px 0px 0px 120px;
+  padding: 10px;
+  color: #495D7B;
+}
+
+.right-text-item{
+  flex-basis: 83%; 
+  color: #495D7B;
+  background-color: #EEEEF7;
+}
+
+
 
 /* Image Related */
+
+.jumbotron {
+	background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.jumbotron_initialImage {
+	background-image: url("../images/myphoto-mac.jpg");
+}
 
 .image {
 	height: 100px;
@@ -86,39 +116,8 @@ a {
   background-repeat: no-repeat;
 }
 
-
-
-/* Jumbotron */
-
-.jumbotron {
-	background-size: cover;
-  height: 500px;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+.jumbotron-app1-item {
+	background-image: url("../images/main-app.jpg");
 }
-
-
-.jumbotron_initialImage {
-	background-image: url("../images/myphoto-mac.jpg");
-}
-
-
-.left-text-item{
-  flex-basis: 17%;  
-  background-color: #EEEEF7;
-  background-repeat: no-repeat; 
-  margin: 20px 0px 0px 120px;
-  padding: 10px;
-  color: #495D7B;
-}
-
-.right-text-item{
-  flex-basis: 83%; 
-  color: #495D7B;
-  background-color: #EEEEF7;
-}
-
-
 
 
