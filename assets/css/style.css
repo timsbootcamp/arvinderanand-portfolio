@@ -21,7 +21,7 @@ a {
   display: flex;
   background: #31343D;
   justify-content:space-between;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .flex-container div {
@@ -69,4 +69,19 @@ a {
   background-image: url("../images/myphoto.jpg");
 }
 
+
+/* Jumbotron */
+
+.jumbotron {
+	background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.jumbotron_initialImage {
+	background-image: url("../images/myphoto-mac.jpg");
+}
 
