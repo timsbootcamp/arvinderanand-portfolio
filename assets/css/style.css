@@ -116,12 +116,11 @@ a {
   background-repeat: no-repeat;
 }
 
-.jumbotron-app1-item {
-	background-image: url("../images/app1.jpg");
-  display: flex; 
-  align-items: flex-end;
-  
-}
+  .jumbotron-app1-item {
+    background-image: url("../images/app1.jpg");
+    display: flex; 
+    align-items: flex-end;
+  }
 
 .jumbotron-app2-item {
 	background-image: url("../images/app2.jpg");
