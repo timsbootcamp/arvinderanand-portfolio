@@ -154,14 +154,27 @@ a {
 
 
 
-.text {
+/* .text {
   background: rgb(0,0,0,0.7);
   width: 100%;
   padding: 20px 40px;
   color: white;
+} */
+
+
+.text {
+  background: #73FBFD;
+  width: 100%;
+  padding: 20px 40px;
+  color: #495D7B;
 }
+
+
+
 .text p {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
+  padding: 10px 0px 0px 0px;
+  color: #495D7B;
   font-family: Arial, Helvetica, sans-serif;
 }
 .text h1 {
