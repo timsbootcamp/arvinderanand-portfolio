@@ -117,7 +117,30 @@ a {
 }
 
 .jumbotron-app1-item {
-	background-image: url("../images/main-app.jpg");
+	background-image: url("../images/app1.jpg");
 }
+
+.jumbotron-app2-item {
+	background-image: url("../images/app2.jpg");
+}
+
+.jumbotron-app3-item {
+	background-image: url("../images/app3.jpg");
+}
+
+.jumbotron-app4-item {
+	background-image: url("../images/app4.jpg");
+}
+
+.jumbotron-app5-item {
+	background-image: url("../images/app5.jpg");
+}
+
+
+.app-image-item{
+  flex-basis: 40%; 
+  margin: 10px;
+}
+
 
 
