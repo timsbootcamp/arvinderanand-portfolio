@@ -17,15 +17,27 @@ a {
 
 /* Flex Container */
 
+.flex-container-navbar {
+  display: flex;
+  
+  /* not required */
+  background-color: yellow;
+  
+  justify-content:space-between;
+  margin: 10px 0px 0px 0px;
+}
+
+
+
 .flex-container  {
   display: flex;
-  background: #31343D;
+  background: #EEEEF7;
   justify-content:space-between;
   margin: 10px 0px 0px 0px;
 }
 
 .flex-container div {
-    padding: 5px;
+    padding: 10px;
 } 
 
 
@@ -37,9 +49,6 @@ a {
   justify-content:flex-end;
 }
 
-.main-nav {
-  background-color: #31343D;
-}
 
 .navigation a {
   font-size: 17px;
@@ -61,6 +70,8 @@ a {
   width: 200px;
   background-position: center;
   background-repeat: no-repeat;
+
+  background-color: #EEEEF7;
 }
 
 .image-myphoto {
@@ -68,6 +79,13 @@ a {
 	height: 30px;
   background-image: url("../images/myphoto.jpg");
 }
+
+.imageAbout {
+	height: 100px;
+  width: 200px;
+  background-repeat: no-repeat;
+}
+
 
 
 /* Jumbotron */
@@ -84,4 +102,23 @@ a {
 .jumbotron_initialImage {
 	background-image: url("../images/myphoto-mac.jpg");
 }
+
+
+.left-text-item{
+  flex-basis: 17%;  
+  background-color: #EEEEF7;
+  background-repeat: no-repeat; 
+  margin: 20px 0px 0px 120px;
+  padding: 10px;
+  color: #495D7B;
+}
+
+.right-text-item{
+  flex-basis: 83%; 
+  color: #495D7B;
+  background-color: #EEEEF7;
+}
+
+
+
 
