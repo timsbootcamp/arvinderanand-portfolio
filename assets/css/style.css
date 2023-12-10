@@ -17,14 +17,17 @@ a {
 
 /* Flex Container */
 
+.flex-container-title {
+  display: flex;
+  background: #31343D;
+  justify-content: center;
+}
+
+
 .flex-container-navbar {
   display: flex;
-  
-  /* not required */
-  background-color: yellow;
-  
-  justify-content:space-between;
-  margin: 10px 0px 0px 0px;
+  background: #31343D;
+  justify-content:center;
 }
 
 
@@ -180,6 +183,16 @@ a {
 .text h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+h1 {
+  /* color: #31343D; */
+  color: #31343D;
+  background: #73FBFD;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 20px 0px; 
+}
+
+
 
 
 .column {
