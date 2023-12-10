@@ -1,0 +1,8 @@
+    
+/* css reset - some browsers have margins so solution to reset below properties */
+* { 
+  margin: 0;
+  padding: 0; 
+}
+
+
