@@ -137,6 +137,7 @@ h2 {
 
 .jumbotron-app1-item {
     background-image: url("../images/app1.jpg");
+    width: 98.7%;
   }
 
 
@@ -170,7 +171,7 @@ h2 {
 /* Related to Application Text box bubbles */
 .text {
   background: var(--complementing-color);
-  width: 30%;
+  width: 35%;
   padding: 20px 40px;
   color: var(--primary-text-color);
 }
