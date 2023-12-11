@@ -67,7 +67,7 @@ footer {
   display: flex;
   flex-direction: row;
   background: var(--primary-background-color);
-    justify-content:space-between;
+  justify-content:space-between;
 }
 
 
@@ -111,7 +111,6 @@ footer {
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
   font-size: 17px;
-  
 }
 
 
@@ -159,7 +158,7 @@ footer {
 
 .app-image-item{
   flex-basis: 42%; 
-  margin: 10px;
+  margin: 5px;
 }
 
 
@@ -192,8 +191,9 @@ footer {
 }
 
 
-.contact-me-item {
+.about-me-item, .contact-me-item {
   text-align: left; 
+  padding: 10px;
 }
 
 
