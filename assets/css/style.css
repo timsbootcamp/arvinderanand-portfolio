@@ -1,4 +1,3 @@
-
 /* css reset - some browsers have margins */
 * { 
   margin: 0;
@@ -6,8 +5,20 @@
 }
 
 
+
+/* Add variables for colours */
+:root {
+  --primary-text-color: #495D7B;
+  --header-background-color: #31343D;
+  
+  --navbar-alink-text-color: #92CCCE;
+  --primary-background-color: #EEEEF7; 
+  --complementing-color:#73FBFD;
+}
+
+
+/* Anchor element */
 a {
-  color: black;
   font-size: 14px;
   text-decoration: none;
   font-family:arial;
@@ -15,185 +26,180 @@ a {
 }
 
 
+/* h1 element */
+h1 {
+  color: var(--primary-text-color);
+  background: var(--complementing-color);
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 20px 0px; 
+}
+
+
+/* h2 element */
+h2 {
+  border-bottom: 5px solid var(--primary-text-color);
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+
+/* footer element */
+footer {
+  background: var(--primary-background-color);
+  text-align: center;
+  padding-left: 50px;
+}
+
+
+
+
 /* Flex Container */
 
 .flex-container-navbar {
   display: flex;
-  
-  /* not required */
-  background-color: yellow;
-  
-  justify-content:space-between;
-  margin: 10px 0px 0px 0px;
+  flex-direction: column;
+  background: var(--header-background-color);
+  align-items: center;
 }
-
 
 
 .flex-container  {
   display: flex;
-  background: #EEEEF7;
-  justify-content:space-between;
-  margin: 10px 0px 0px 0px;
+  flex-direction: row;
+  background: var(--primary-background-color);
+    justify-content:space-between;
 }
-
-.flex-container div {
-    padding: 10px;
-} 
 
 
 
 /* Navigation */
+
 .navigation  {
   display: flex;
   align-items: center;
   justify-content:flex-end;
+  padding: 10px;
 }
 
 
 .navigation a {
   font-size: 17px;
-  color: #92CCCE;
+  color: var(--navbar-alink-text-color);
   font-weight: bold;
   font-family: Arial;  
 }
 
+
 .navigation a:hover {
-  background: #73FBFD;
+  background: var(--primary-background-color);
 }
 
 
 /* Left and Right Items that is reused */
 .left-text-item{
   flex-basis: 17%;  
-  background-color: #EEEEF7;
+  background-color: var(--primary-background-color);
   background-repeat: no-repeat; 
   margin: 20px 0px 0px 120px;
-    padding: 0 100px 0 0;
-  color: #495D7B;
+  padding: 0 100px 0 0;
+  color: var(--primary-text-color);
 }
+
 
 .right-text-item{
-  flex-basis: 83%; 
-  color: #495D7B;
-  background-color: #EEEEF7;
+  flex-basis: 83%;  
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+  font-size: 17px;
+  
 }
 
 
 
-/* Image Related */
 
+/* Image Related to Application Images */
 .jumbotron {
 	background-size: cover;
   height: 500px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  border: 3px solid var(--complementing-color);
+  display: flex; 
+  align-items: flex-end;
 }
 
 
-.jumbotron_initialImage {
-	background-image: url("../images/myphoto-mac.jpg");
-}
 
-.image {
-	height: 100px;
-  width: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  background-color: #EEEEF7;
-}
-
-.image-myphoto {
-  width: 200px;
-	height: 30px;
-  background-image: url("../images/myphoto.jpg");
-}
-
-.imageAbout {
-	height: 100px;
-  width: 200px;
-  background-repeat: no-repeat;
-}
-
-  .jumbotron-app1-item {
+.jumbotron-app1-item {
     background-image: url("../images/app1.jpg");
-    display: flex; 
-    align-items: flex-end;
+    width: 99.1%;
   }
+
 
 .jumbotron-app2-item {
 	background-image: url("../images/app2.jpg");
-  display: flex;
-  align-items: flex-end;
 }
+
 
 .jumbotron-app3-item {
 	background-image: url("../images/app3.jpg");
-  display: flex;
-  align-items: flex-end;
 }
+
 
 .jumbotron-app4-item {
 	background-image: url("../images/app4.jpg");
-  display: flex;
-  align-items: flex-end;
 }
+
 
 .jumbotron-app5-item {
 	background-image: url("../images/app5.jpg");
-  display: flex;
-  align-items: flex-end;
 }
 
 
 .app-image-item{
-  flex-basis: 40%; 
+  flex-basis: 42%; 
   margin: 10px;
 }
 
 
-
-/* .text {
-  background: rgb(0,0,0,0.7);
-  width: 100%;
-  padding: 20px 40px;
-  color: white;
-} */
+.myphoto-item {
+  border: 3px solid var(--complementing-color);
+}
 
 
+
+/* Related to Application Text box bubbles */
 .text {
-  background: #73FBFD;
-  width: 100%;
+  background: var(--complementing-color);
+  width: 35%;
   padding: 20px 40px;
-  color: #495D7B;
+  color: var(--primary-text-color);
 }
 
 
-
-.text p {
-  /* color: rgba(255, 255, 255, 0.7); */
-  padding: 10px 0px 0px 0px;
-  color: #495D7B;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.text h1 {
+/* h2 element within .text class */
+.text h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 
-.column {
-  display: flex;
-  height: 1200px;
-  width: 800px;
-  flex-direction: column;
-  margin: 0 auto;
+/* paragraph tag within .text class */
+.text p {
+  padding: 10px 0px 0px 0px;
+  color: var(--primary-text-color);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
-h2 {
-  padding-bottom: 10px;
-  border-bottom: 5px solid #495D7B;
-  padding-right: 20px;
+.contact-me-item {
+  text-align: left; 
 }
 
+
+/* Media query - max width upto 600px */
+@media only screen and (max-width: 600px) {
+   .flex-container {
+    flex-direction: column;
+  }
+}
