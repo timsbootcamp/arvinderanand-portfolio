@@ -81,7 +81,7 @@ h2 {
 
 
 .navigation a:hover {
-  background: var(--complementing-color);;
+  background: var(--primary-background-color);
 }
 
 
