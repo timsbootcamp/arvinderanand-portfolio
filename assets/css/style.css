@@ -119,8 +119,15 @@ h2 {
 
 .jumbotron_initialImage {
   border: none;
-  background-image: url("../images/myphoto-mac.jpg");
+  width: 30%;
+  background-image: url("../images/myphoto01.jpg");
 }
+
+.jumbotron_initialImage2 {
+  border: none;
+  background-image: url("../images/myphoto02.jpg");
+}
+
 
 
 .jumbotron-app1-item {
@@ -174,3 +181,16 @@ h2 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
+@media only screen and (max-width: 600px) {
+
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .jumbotron-app1-item {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
