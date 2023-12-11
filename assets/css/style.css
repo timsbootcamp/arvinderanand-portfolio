@@ -43,6 +43,11 @@ h2 {
 
 /* Flex Container */
 
+.tim-container  {
+  display: flex;
+  flex-direction: row;
+}
+
 .flex-container-title, .flex-container-navbar {
   display: flex;
   background: var(--header-background-color);
@@ -184,13 +189,13 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 
-  .flex-container {
+   .flex-container {
     flex-direction: column;
   }
 
-  .jumbotron-app1-item {
+  /* .jumbotron-app1-item {
     flex-direction: column;
     width: 100%;
-  }
-
+  }  */
+ 
 }
