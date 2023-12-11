@@ -14,6 +14,22 @@ a {
   padding: 10px;
 }
 
+h1 {
+  color: #31343D;
+  background: #73FBFD;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 0px 20px 0px; 
+}
+
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #495D7B;
+  padding-right: 20px;
+}
+
+
+
 
 /* Flex Container */
 
@@ -45,6 +61,7 @@ a {
 
 
 /* Navigation */
+
 .navigation  {
   display: flex;
   align-items: center;
@@ -71,7 +88,7 @@ a {
   background-color: #EEEEF7;
   background-repeat: no-repeat; 
   margin: 20px 0px 0px 120px;
-    padding: 0 100px 0 0;
+  padding: 0 100px 0 0;
   color: #495D7B;
 }
 
@@ -92,6 +109,9 @@ a {
   background-position: center;
   background-repeat: no-repeat;
   border: 3px solid #73FBFD;;
+
+  display: flex; 
+  align-items: flex-end;
 }
 
 
@@ -101,61 +121,28 @@ a {
 }
 
 
-.image {
-	height: 100px;
-  width: 200px;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  background-color: #EEEEF7;
-}
-
-
-.image-myphoto {
-  width: 200px;
-	height: 30px;
-  background-image: url("../images/myphoto.jpg");
-}
-
-
-.imageAbout {
-	height: 100px;
-  width: 200px;
-  background-repeat: no-repeat;
-}
-
 .jumbotron-app1-item {
     background-image: url("../images/app1.jpg");
-    display: flex; 
-    align-items: flex-end;
   }
 
 
 .jumbotron-app2-item {
 	background-image: url("../images/app2.jpg");
-  display: flex;
-  align-items: flex-end;
 }
 
 
 .jumbotron-app3-item {
 	background-image: url("../images/app3.jpg");
-  display: flex;
-  align-items: flex-end;
 }
 
 
 .jumbotron-app4-item {
 	background-image: url("../images/app4.jpg");
-  display: flex;
-  align-items: flex-end;
 }
 
 
 .jumbotron-app5-item {
 	background-image: url("../images/app5.jpg");
-  display: flex;
-  align-items: flex-end;
 }
 
 
@@ -165,6 +152,8 @@ a {
 }
 
 
+
+/* Related to Application Text box bubbles */
 .text {
   background: #73FBFD;
   width: 30%;
@@ -179,29 +168,6 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.text h1 {
+.text h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
-h1 {
-  color: #31343D;
-  background: #73FBFD;
-  padding: 10px 10px 10px 10px;
-  margin: 0px 0px 20px 0px; 
-}
-
-.column {
-  display: flex;
-  height: 1200px;
-  width: 800px;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-
-h2 {
-  padding-bottom: 10px;
-  border-bottom: 5px solid #495D7B;
-  padding-right: 20px;
-}
-
