@@ -135,7 +135,7 @@ and achievements.
 
 Link to my GitHub Repository: https://github.com/timsbootcamp/arvinderanand-portfolio
 
-Link to deployed site of my Horiseon Website: https://timsbootcamp.github.io/arvinderanand-portfolio/
+Link to deployed site of my Portfolio Website: https://timsbootcamp.github.io/arvinderanand-portfolio/
 
 
 ## Credits
