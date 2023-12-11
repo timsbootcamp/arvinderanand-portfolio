@@ -1,4 +1,5 @@
 
+
 /* css reset - some browsers have margins */
 * { 
   margin: 0;
@@ -6,17 +7,27 @@
 }
 
 
+:root {
+  --primary-text-color: #495D7B;
+  --header-background-color: #31343D;
+  
+  --navbar-alink-text-color: #92CCCE;
+  --primary-background-color: #EEEEF7; 
+  --complementing-color:#73FBFD;
+}
+
+
 a {
-  color: black;
   font-size: 14px;
   text-decoration: none;
   font-family:arial;
   padding: 10px;
 }
 
+
 h1 {
-  color: #31343D;
-  background: #73FBFD;
+  color: var(--primary-text-color);
+  background: var(--complementing-color);
   padding: 10px 10px 10px 10px;
   margin: 0px 0px 20px 0px; 
 }
@@ -24,32 +35,24 @@ h1 {
 
 h2 {
   padding-bottom: 10px;
-  border-bottom: 5px solid #495D7B;
+  border-bottom: 5px solid var(--primary-text-color);
   padding-right: 20px;
 }
 
 
 
-
 /* Flex Container */
 
-.flex-container-title {
+.flex-container-title, .flex-container-navbar {
   display: flex;
-  background: #31343D;
+  background: var(--header-background-color);
   justify-content: center;
-}
-
-
-.flex-container-navbar {
-  display: flex;
-  background: #31343D;
-  justify-content:center;
 }
 
 
 .flex-container  {
   display: flex;
-  background: #EEEEF7;
+  background: var(--primary-background-color);
   justify-content:space-between;
   margin: 10px 0px 0px 0px;
 }
@@ -71,32 +74,32 @@ h2 {
 
 .navigation a {
   font-size: 17px;
-  color: #92CCCE;
+  color: var(--navbar-alink-text-color);
   font-weight: bold;
   font-family: Arial;  
 }
 
 
 .navigation a:hover {
-  background: #73FBFD;
+  background: var(--complementing-color);;
 }
 
 
 /* Left and Right Items that is reused */
 .left-text-item{
   flex-basis: 17%;  
-  background-color: #EEEEF7;
+  background-color: var(--primary-background-color);
   background-repeat: no-repeat; 
   margin: 20px 0px 0px 120px;
   padding: 0 100px 0 0;
-  color: #495D7B;
+  color: var(--primary-text-color);
 }
 
 
 .right-text-item{
   flex-basis: 83%; 
-  color: #495D7B;
-  background-color: #EEEEF7;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
 }
 
 
@@ -108,8 +111,7 @@ h2 {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  border: 3px solid #73FBFD;;
-
+  border: 3px solid var(--complementing-color);
   display: flex; 
   align-items: flex-end;
 }
@@ -155,19 +157,20 @@ h2 {
 
 /* Related to Application Text box bubbles */
 .text {
-  background: #73FBFD;
+  background: var(--complementing-color);
   width: 30%;
   padding: 20px 40px;
-  color: #495D7B;
+  color: var(--primary-text-color);
 }
 
-
-.text p {
-  padding: 10px 0px 0px 0px;
-  color: #495D7B;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 .text h2 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.text p {
+  padding: 10px 0px 0px 0px;
+  color: var(--primary-text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
