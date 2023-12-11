@@ -31,7 +31,6 @@ a {
 }
 
 
-
 .flex-container  {
   display: flex;
   background: #EEEEF7;
@@ -39,10 +38,10 @@ a {
   margin: 10px 0px 0px 0px;
 }
 
+
 .flex-container div {
     padding: 10px;
 } 
-
 
 
 /* Navigation */
@@ -60,6 +59,7 @@ a {
   font-family: Arial;  
 }
 
+
 .navigation a:hover {
   background: #73FBFD;
 }
@@ -75,12 +75,12 @@ a {
   color: #495D7B;
 }
 
+
 .right-text-item{
   flex-basis: 83%; 
   color: #495D7B;
   background-color: #EEEEF7;
 }
-
 
 
 /* Image Related */
@@ -91,12 +91,15 @@ a {
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  border: 3px solid #73FBFD;;
 }
 
 
 .jumbotron_initialImage {
-	background-image: url("../images/myphoto-mac.jpg");
+  border: none;
+  background-image: url("../images/myphoto-mac.jpg");
 }
+
 
 .image {
 	height: 100px;
@@ -107,11 +110,13 @@ a {
   background-color: #EEEEF7;
 }
 
+
 .image-myphoto {
   width: 200px;
 	height: 30px;
   background-image: url("../images/myphoto.jpg");
 }
+
 
 .imageAbout {
 	height: 100px;
@@ -119,11 +124,12 @@ a {
   background-repeat: no-repeat;
 }
 
-  .jumbotron-app1-item {
+.jumbotron-app1-item {
     background-image: url("../images/app1.jpg");
     display: flex; 
     align-items: flex-end;
   }
+
 
 .jumbotron-app2-item {
 	background-image: url("../images/app2.jpg");
@@ -131,17 +137,20 @@ a {
   align-items: flex-end;
 }
 
+
 .jumbotron-app3-item {
 	background-image: url("../images/app3.jpg");
   display: flex;
   align-items: flex-end;
 }
 
+
 .jumbotron-app4-item {
 	background-image: url("../images/app4.jpg");
   display: flex;
   align-items: flex-end;
 }
+
 
 .jumbotron-app5-item {
 	background-image: url("../images/app5.jpg");
@@ -151,18 +160,9 @@ a {
 
 
 .app-image-item{
-  flex-basis: 40%; 
+  flex-basis: 42%; 
   margin: 10px;
 }
-
-
-
-/* .text {
-  background: rgb(0,0,0,0.7);
-  width: 100%;
-  padding: 20px 40px;
-  color: white;
-} */
 
 
 .text {
@@ -173,27 +173,22 @@ a {
 }
 
 
-
 .text p {
-  /* color: rgba(255, 255, 255, 0.7); */
   padding: 10px 0px 0px 0px;
   color: #495D7B;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .text h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-  /* color: #31343D; */
   color: #31343D;
   background: #73FBFD;
   padding: 10px 10px 10px 10px;
   margin: 0px 0px 20px 0px; 
 }
-
-
-
 
 .column {
   display: flex;
