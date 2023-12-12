@@ -137,6 +137,8 @@ Link to my GitHub Repository: https://github.com/timsbootcamp/arvinderanand-port
 
 Link to deployed site of my Portfolio Website: https://timsbootcamp.github.io/arvinderanand-portfolio/
 
+![screenshot](screenshot.png)
+
 
 ## Credits
 
